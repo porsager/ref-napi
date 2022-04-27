@@ -1,6 +1,6 @@
 {
   'targets': [{
-    'target_name': 'binding',
+    'target_name': 'ref-napi',
     'sources': [ 'src/binding.cc' ],
     'include_dirs': [
       "<!@(node -p \"require('node-addon-api').include\")",
